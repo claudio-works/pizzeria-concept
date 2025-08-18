@@ -319,7 +319,7 @@ h6 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* Remove the margin, let grid gap handle spacing */
+  text-align: center;
 }
 .extras-category img {
   width: 24px;
@@ -330,6 +330,10 @@ h6 {
   display: grid; /* Change from flex to grid */
   grid-template-columns: repeat(4, 1fr);
   gap: var(--space-3);
+}
+
+.extras-category h4 {
+  margin-bottom: var(--space-1);
 }
 
 /* Sides */
