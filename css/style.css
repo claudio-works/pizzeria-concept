@@ -129,7 +129,9 @@ a:visited {
 /* =========================
    3) Utilities
    ========================= */
-
+.menu-content section:last-child {
+  margin-bottom: 0;
+}
 .container {
   padding-inline: var(--space-4);
   padding-block: 0;
@@ -337,6 +339,9 @@ h6 {
 }
 
 /* Sides */
+.sides .menu-category {
+  margin-bottom: var(--space-1-5);
+}
 .sides {
   text-align: center;
 }
@@ -360,12 +365,13 @@ h6 {
 .limited-time-featured .menu-category {
   margin: 0; /* No margins */
   line-height: 1; /* Tight line height */
+  margin-bottom: var(--space-2);
 }
 
 .menu-content .limited-time {
   text-align: center;
-  padding: var(--space-2) var(--space-3);
-  margin: var(--space-1) auto var(--space-2) auto;
+  padding: var(--space-3) var(--space-2);
+  margin: var(--space-6) auto;
   border: 2px dashed var(--color-accent2);
   border-radius: var(--radius-md);
   max-width: 600px;
