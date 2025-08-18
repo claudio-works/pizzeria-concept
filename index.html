@@ -112,13 +112,15 @@
     <nav class="navbar" aria-label="Ordering and catering links">
       <div class="container_nav">
         <a href="#" class="navbar_logo">
-          <img
-            class="logo-image"
-            src="asset/ippa-new-2.png"
-            alt="Ippa Pizza Logo"
-            width="64"
-            height="64"
-          />
+          <div class="logo-wrapper">
+            <img
+              class="logo-image"
+              src="asset/ippa-new-2.png"
+              alt="Ippa Pizza Logo"
+              width="64"
+              height="64"
+            />
+          </div>
         </a>
         <ul class="navbar_navlist">
           <li>
@@ -516,5 +518,19 @@
     <!-- ====================================================== -->
     <!--                      FOOTER END                        -->
     <!-- ====================================================== -->
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const navbar = document.querySelector(".navbar");
+        const scrollTrigger = 80;
+
+        window.addEventListener("scroll", () => {
+          if (window.scrollY > scrollTrigger) {
+            navbar.classList.add("scrolled");
+          } else {
+            navbar.classList.remove("scrolled");
+          }
+        });
+      });
+    </script>
   </body>
 </html>
