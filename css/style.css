@@ -630,12 +630,12 @@ h6 {
   }
 
   .extras-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
     align-items: start;
   }
   .extras-category {
-    text-align: left;
-    align-items: flex-start;
+    text-align: center;
+    align-items: center;
   }
 
   .extras-category img {
