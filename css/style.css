@@ -161,7 +161,7 @@ ul {
   align-items: center;
   border: 2px solid var(--color-accent);
   transition: transform 0.15s ease, background-color 0.15s ease;
-  cursor: pointer; /* Added for better UX */
+  cursor: pointer;
 }
 
 .pill_base:hover {
@@ -585,7 +585,7 @@ h6 {
     align-items: center;
     text-align: center;
   }
-  
+
   .extras-grid {
     grid-template-columns: repeat(2, 1fr); /* 2 columns on tablet */
   }
@@ -604,10 +604,10 @@ h6 {
   }
 
   .container_nav {
-    flex-direction: row; 
-    justify-content: space-between; 
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     gap: var(--space-2);
     padding: var(--space-2);
   }
@@ -624,8 +624,9 @@ h6 {
   .menu-category {
     font-size: var(--text-xl);
   }
-  
+
   .extras-grid {
-    grid-template-columns: 1fr; /* 1 column on mobile */
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-2);
   }
 }
