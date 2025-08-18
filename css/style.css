@@ -633,4 +633,8 @@ h6 {
     text-align: left;
     align-items: flex-start;
   }
+
+  .extras-category img {
+    display: none;
+  }
 }
