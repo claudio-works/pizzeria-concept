@@ -574,6 +574,21 @@ h6 {
     flex-wrap: wrap;
     gap: var(--space-1);
   }
+
+  .contact-grid-layout,
+  .site-footer .footer-grid {
+    flex-direction: column;
+    gap: var(--space-4);
+  }
+
+  .site-footer .footer-grid {
+    align-items: center;
+    text-align: center;
+  }
+  
+  .extras-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on tablet */
+  }
 }
 
 /* Mobile breakpoint */
@@ -589,7 +604,10 @@ h6 {
   }
 
   .container_nav {
-    flex-direction: column;
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: center;
+    flex-wrap: wrap; 
     gap: var(--space-2);
     padding: var(--space-2);
   }
@@ -605,5 +623,9 @@ h6 {
 
   .menu-category {
     font-size: var(--text-xl);
+  }
+  
+  .extras-grid {
+    grid-template-columns: 1fr; /* 1 column on mobile */
   }
 }
