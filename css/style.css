@@ -446,6 +446,11 @@ h6 {
   font-weight: 700;
 }
 
+.map-container {
+  border-radius: var(--space-1);
+  overflow: hidden;
+}
+
 .form-group input,
 .form-group select,
 .form-group textarea {
@@ -720,9 +725,14 @@ h6 {
   }
   .map-container iframe {
     height: 300px;
-
     min-height: 300px;
   }
+
+  .map-container {
+    border-radius: var(--space-1);
+    overflow: hidden;
+  }
+
   .form-column,
   .map-and-address {
     flex: 1;
