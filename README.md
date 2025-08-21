@@ -49,4 +49,4 @@ The goal was to build a new website from the ground up that solved these problem
 
 ## LIVE DEMO
 
-### 🔴 **[View Live Site →](https://claudioc.dev/projects/ippa-pizza)**
+### 🔴 **[View Live Site →][(https://claudioc.dev/projects/ippa-pizza](https://pizzeria-concept.claudioc.dev))**
